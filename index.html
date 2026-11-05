@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veloce Privé, a private collection on loan</title>
+    <meta
+      name="description"
+      content="Six cars from a private collection, lent by the day, the week or the month. Delivered in Monaco, Geneva, Milan, Dubai and Miami, insured from the moment they leave us."
+    />
+    <meta name="theme-color" content="#0B0A09" />
+    <meta property="og:title" content="Veloce Privé, a private collection on loan" />
+    <meta property="og:description" content="Six cars, lent by the day, the week or the month. From €1,900 a day, delivery and insurance included." />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B0A09'/%3E%3Cpath d='M6 27V7h20v20' fill='none' stroke='%23ECE6DB' stroke-width='1.5'/%3E%3Cpath d='M11 27V12h10v15' fill='none' stroke='%23ECE6DB' stroke-width='1.2' opacity='.7'/%3E%3Cpath d='M14.5 27v-9h3v9' fill='none' stroke='%23ECE6DB' stroke-width='1' opacity='.45'/%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Franklin:wght@300..600&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/veloce-prive/assets/c2-on-loan-v3-CZDe-eBn.js"></script>
+    <link rel="stylesheet" crossorigin href="/veloce-prive/assets/c2-on-loan-v3-jNTk-vfS.css">
+  </head>
+  <body class="is-loading">
+    <a class="skip-link" href="#s-request">Skip to the loan request</a>
+
+    <div class="stage" aria-hidden="true">
+      <canvas id="c2v3-canvas"></canvas>
+    </div>
+
+    <header class="nav is-away" id="nav">
+      <a class="nav-mark" href="#s-hero" data-go="s-hero">Veloce Privé</a>
+      <p class="nav-where" id="nav-where"><span class="nw-n">Hall</span>Open tonight</p>
+      <nav class="nav-links" aria-label="Sections">
+        <button type="button" class="ix-open" id="ix-open" aria-expanded="false" aria-controls="ix">Index</button>
+        <a href="#s-request" data-go="s-request" class="nav-request">Request a loan</a>
+      </nav>
+      <div class="nav-progress" aria-hidden="true"><i></i></div>
+    </header>
+
+    <noscript>
+      <style>.nav.is-away { transform: none; opacity: 1; pointer-events: auto; }</style>
+      <p class="no-light">The lights are off tonight: this page needs JavaScript to open the rooms. The collection is still here. Call the registrar on +377 98 06 36 36.</p>
+    </noscript>
+    <p class="no-light" id="no-light" hidden>
+      The lights are off in the rooms tonight, so you can’t walk through them on this device. The cars are all still in the collection: their terms are below, and the registrar is on +377 98 06 36 36.
+    </p>
+
+    <main>
+      <section class="sec sec-hero" id="s-hero" data-sec="hero">
+        <div class="pin">
+          <h1 class="sr-only">Veloce Privé, a private collection of six cars, lent by the day and delivered to your door</h1>
+        </div>
+      </section>
+
+      <section class="sec sec-room" id="s-room-1" data-sec="room" data-room="0">
+        <div class="pin"><article class="label reveal label-br" data-window="0.2057,0.5029" data-car="ferrari"></article></div>
+      </section>
+
+      <section class="sec sec-room" id="s-room-2" data-sec="room" data-room="1">
+        <div class="pin"><article class="label reveal label-tl" data-window="0.4,0.97" data-car="porsche"></article></div>
+      </section>
+
+      <section class="sec sec-terms" id="s-terms" data-sec="terms">
+        <div class="pin">
+          <div class="terms reveal" data-window="0.2025,0.645">
+            <h2 class="terms-title">Insured nail<br />to nail<span class="period">.</span></h2>
+            <p class="terms-intro">Museums use the phrase for a loan that’s covered from the moment a work leaves its wall until it’s back on it. Ours work the same way.</p>
+            <div class="terms-grid">
+              <div class="term" data-page="0">
+                <h3>What the fee covers</h3>
+                <p>Delivery and collection, fully comprehensive insurance, a full tank, and 200 kilometres a day (150 for the Senna and the Chiron). Extra kilometres are charged at the rate on each car’s label.</p>
+              </div>
+              <div class="term" data-page="0">
+                <h3>The deposit</h3>
+                <p>Held on a credit card in your name and released within seven days of collection. It’s also your excess, so it’s the most you could ever owe us.</p>
+              </div>
+              <div class="term" data-page="1">
+                <h3>Who can borrow</h3>
+                <p>Anyone over 25 with a full licence held for three years. For the Senna and the Chiron, 30 and five years. Bring your passport, and an international permit outside the EU.</p>
+              </div>
+              <div class="term" data-page="1">
+                <h3>The courier</h3>
+                <p>The person who looks after the car brings it to your home, hotel, marina or private terminal, between 7:00 and 23:00. Two days to move a car within Europe, ten to Dubai or Miami.</p>
+              </div>
+              <div class="term" data-page="2">
+                <h3>The condition report</h3>
+                <p>You walk round the car together and both sign one page. It’s read again when the car is collected. Allow half an hour, longer if you’d like a first drive with them beside you.</p>
+              </div>
+              <div class="term" data-page="2">
+                <h3>Changing your mind</h3>
+                <p>Free until 72 hours before delivery. After that, half the fee. If we ever have to cancel, you pay nothing and we offer you the next car in the collection.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec-room" id="s-room-3" data-sec="room" data-room="2">
+        <div class="pin"><article class="label reveal label-tr" data-window="0.216,0.528" data-car="lamborghini"></article></div>
+      </section>
+
+      <section class="sec sec-room" id="s-room-4" data-sec="room" data-room="3">
+        <div class="pin"><article class="label reveal label-tl" data-window="0.2057,0.5029" data-car="gallardo"></article></div>
+      </section>
+
+      <section class="sec sec-room" id="s-room-5" data-sec="room" data-room="4">
+        <div class="pin"><article class="label reveal label-bl" data-window="0.1906,0.4659" data-car="mclaren"></article></div>
+      </section>
+
+      <section class="sec sec-room" id="s-room-6" data-sec="room" data-room="5">
+        <div class="pin"><article class="label reveal label-ml" data-window="0.36,0.97" data-car="bugatti"></article></div>
+      </section>
+
+      <section class="sec sec-works" id="s-works" data-sec="works">
+        <div class="pin">
+          <div class="works reveal" data-window="0.3,1.01">
+            <h2 class="works-title">List of works</h2>
+            <p class="works-intro">All fees in euros, taxes included. Every car can be delivered in all five cities.</p>
+            <div class="works-table">
+              <div class="works-row works-head" aria-hidden="true">
+                <span>No.</span>
+                <span>Work</span>
+                <span class="r h-day">Day</span>
+                <span class="r">Three days</span>
+                <span class="r">Week</span>
+                <span class="r">Month</span>
+                <span class="r">Deposit</span>
+              </div>
+              <div id="works-rows"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec sec-request" id="s-request" data-sec="request">
+        <div class="pin">
+          <div class="request reveal" data-window="0.3,1.01">
+            <h2 class="request-title">Request a loan<span class="period">.</span></h2>
+            <form class="loan-form" id="loan-form" novalidate>
+              <div class="field">
+                <label for="f-car">Car</label>
+                <select id="f-car" name="car"></select>
+              </div>
+              <div class="field">
+                <label for="f-city">City</label>
+                <select id="f-city" name="city"></select>
+              </div>
+              <div class="field field-dates">
+                <span class="field-label" id="dates-label">Dates</span>
+                <div class="dates" role="group" aria-labelledby="dates-label">
+                  <span class="date-field"><input type="date" id="f-from" name="from" aria-label="From" required /><span class="date-shown" id="f-from-shown" aria-hidden="true"></span></span>
+                  <span class="dates-to" aria-hidden="true">to</span>
+                  <span class="date-field"><input type="date" id="f-to" name="to" aria-label="To" required /><span class="date-shown" id="f-to-shown" aria-hidden="true"></span></span>
+                </div>
+                <p class="field-error" id="err-dates" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="f-name">Name</label>
+                <input type="text" id="f-name" name="name" autocomplete="name" placeholder="As on your licence" required />
+                <p class="field-error" id="err-name" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="f-contact">Phone or email</label>
+                <input type="text" id="f-contact" name="contact" autocomplete="email" placeholder="Where the registrar should call" required />
+                <p class="field-error" id="err-contact" aria-live="polite"></p>
+              </div>
+              <p class="fee" id="fee" aria-live="polite"></p>
+              <button type="submit" class="btn" id="btn-request"><span>Request the loan</span></button>
+            </form>
+            <div class="confirm" id="confirm" hidden tabindex="-1">
+              <p class="confirm-work"><span class="red-dot" aria-hidden="true"></span><span id="confirm-work"></span></p>
+              <p class="confirm-line" id="confirm-line"></p>
+            </div>
+            <aside class="next" aria-label="What happens next">
+              <h3>What happens next</h3>
+              <ol>
+                <li><span class="num">1</span><p>Our registrar calls you within the hour, from 7:00 to 23:00 Monaco time.</p></li>
+                <li><span class="num">2</span><p>You send your licence and passport and sign the loan agreement online. The deposit is held on your card.</p></li>
+                <li><span class="num">3</span><p>The car’s keeper brings it to you, walks round it with you and hands you the key.</p></li>
+              </ol>
+            </aside>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot" id="s-footer">
+      <p class="foot-line">The collection is open<br />every evening,<br />by appointment.</p>
+      <div class="foot-cols">
+        <div>
+          <h3>Hours</h3>
+          <p>The registrar answers from 7:00 to 23:00, every day. Cars are delivered and collected in the same hours.</p>
+        </div>
+        <div>
+          <h3>Cities</h3>
+          <p>Monaco, Geneva, Milan, Dubai and Miami. Your home, hotel, marina or private terminal.</p>
+        </div>
+        <div>
+          <h3>Registrar</h3>
+          <p><a href="tel:+37798063636">+377 98 06 36 36</a><br /><a href="mailto:registrar@veloceprive.com">registrar@veloceprive.com</a></p>
+        </div>
+      </div>
+      <p class="foot-small">Veloce Privé, Monaco. A private collection, lent by the day. All fees in euros, taxes included.</p>
+      <p class="foot-credits">
+        Car models: the <a href="https://sketchfab.com/3d-models/lamborghini-gallardo-2010-ff0eb2242d0e42eb8b7034b4db639e56" target="_blank" rel="noopener">Lamborghini Gallardo</a> by
+        <a href="https://sketchfab.com/temp0.crazy" target="_blank" rel="noopener">Artem P</a>, the <a href="https://sketchfab.com/3d-models/mclaren-senna-free-ea3e43a6eb004853a87fe9c58422eb96" target="_blank" rel="noopener">McLaren Senna</a> by
+        <a href="https://sketchfab.com/BlackSnow02" target="_blank" rel="noopener">Black Snow</a> and the
+        <a href="https://sketchfab.com/3d-models/bugatti-veyron-racing-car-unityunreal-8517e3271613487ca1cb37832ff54669" target="_blank" rel="noopener">Bugatti</a> by
+        <a href="https://sketchfab.com/DevPoly3D" target="_blank" rel="noopener">DevPoly3D</a>, from Sketchfab under
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>. Repainted and adjusted for this page.
+      </p>
+    </footer>
+
+  </body>
+</html>
