@@ -23,7 +23,14 @@ A landing page for a private car collection that lends its cars by the day. You 
 
 ## Credits
 
-Car models from Sketchfab under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), repainted and adjusted for this page: the [Lamborghini Gallardo](https://sketchfab.com/3d-models/lamborghini-gallardo-2010-ff0eb2242d0e42eb8b7034b4db639e56) by [Artem P](https://sketchfab.com/temp0.crazy), the [McLaren Senna](https://sketchfab.com/3d-models/mclaren-senna-free-ea3e43a6eb004853a87fe9c58422eb96) by [Black Snow](https://sketchfab.com/BlackSnow02) and the [Bugatti](https://sketchfab.com/3d-models/bugatti-veyron-racing-car-unityunreal-8517e3271613487ca1cb37832ff54669) by [DevPoly3D](https://sketchfab.com/DevPoly3D).
+Car models, repainted and adjusted for this page:
+
+- [Ferrari 458](https://threejs.org/examples/#webgl_materials_car) by vicent091036, from the three.js examples
+- [Porsche 911 Carrera 4S](https://sketchfab.com/3d-models/free-porsche-911-carrera-4s-d01b254483794de3819786d93e0e1ebf) by [Lionsharp Studios](https://sketchfab.com/lionsharp), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- [Lamborghini Aventador](https://github.com/moizahmad418/aventador-3d-configurator) from moizahmad418's Aventador configurator
+- [Lamborghini Gallardo](https://sketchfab.com/3d-models/lamborghini-gallardo-2010-ff0eb2242d0e42eb8b7034b4db639e56) by [Artem P](https://sketchfab.com/temp0.crazy), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [McLaren Senna](https://sketchfab.com/3d-models/mclaren-senna-free-ea3e43a6eb004853a87fe9c58422eb96) by [Black Snow](https://sketchfab.com/BlackSnow02), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Bugatti](https://sketchfab.com/3d-models/bugatti-veyron-racing-car-unityunreal-8517e3271613487ca1cb37832ff54669) by [DevPoly3D](https://sketchfab.com/DevPoly3D), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Veloce Privé is an invented house. The car makes and model names belong to their owners, and the page isn't affiliated with any of them.
 
