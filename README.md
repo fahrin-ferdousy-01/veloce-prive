@@ -35,3 +35,7 @@ Car models, repainted and adjusted for this page:
 Veloce Privé is an invented house. The car makes and model names belong to their owners, and the page isn't affiliated with any of them.
 
 All rights reserved.
+
+---
+
+Imported from [Sam1983Aing/veloce-prive](https://github.com/Sam1983Aing/veloce-prive) — original code and attribution preserved.
